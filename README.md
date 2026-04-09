@@ -17,10 +17,11 @@ Integrated Dynex advanced sampling function  集成 Dynex 高级采样功能 htt
 ### 1. 安装依赖（只需执行一次）
 ```bash
 pip install streamlit dynex dimod pandas plotly
+```
 ### 2. 运行方式
 ```bash
 streamlit run bazi_dynex_streamlit_advanced.py
-
+```
 ### 3. 使用建议：
 -快速测试 → 选 CPU + 退火时间 100ms  
 -最高精度 → 选 QPU + APOLLO_RC1 + 退火时间 500ms + num_reads=50  
